@@ -1,0 +1,48 @@
+body {
+    background-image: url("background-wallpaper.png");
+    background-size: cover;
+    font-family: poppins, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container {
+    background-color: #eee;
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid 2px black;
+
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: rgba(73, 17, 203, 0.845);
+}
+
+#save-btn {
+    background: rgb(153, 126, 126);
+}
+

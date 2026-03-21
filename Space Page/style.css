@@ -1,0 +1,48 @@
+/* @font-face{
+    src: url("./Corleone.ttf");
+    font-family: Corleone;
+} */
+/* Define custom font and use it in our page*/
+
+
+
+body {
+    margin: 0%;
+    color: #82a5ca;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    height: 100vh;
+
+}
+
+#main {
+    background-image: url("./Space\ Science\ Tech\ GIF\ by\ European\ Space\ Agency\ -\ ESA.gif");
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px 0 100px 0;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#main h1 {
+    font-size: 48px;
+    margin-top: 0;
+}
+
+
+.btn-apply {
+    border: none;
+    padding: 6px 12px;
+    background-color: #fff;
+    font-family: inherit;
+    color: inherit;
+    font-weight: bold;
+}
+
+.underline {
+    border-bottom: 4px solid #82a5ca;
+}

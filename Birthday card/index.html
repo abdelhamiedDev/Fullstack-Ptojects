@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HBD🎂🎉</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="header">
+
+        <img id="avatar" src="./Abdelhamied.jpg" alt="Abdelhamied">    
+        <h2 id="bday-msg">Happy Birthday for u tata!🎂🎉</h2> 
+        <h3 id="bday-msg-2">Happy 20th Birthday!</h3>
+
+        <div class="btns">
+            <button class="celebrate-btn">CELEBRATE🪩</button>
+            <audio id="birthday-audio" src="./AfterParty.mp3"></audio>
+            <button class="celebrate-btn stp">STOP🥹</button>
+        </div>
+    </div>
+    <script>
+        const celebrateBtn = document.querySelector('.celebrate-btn');
+        const birthdayAudio = document.getElementById('birthday-audio');
+        const stopBtn = document.querySelector('.stp');
+        stopBtn.addEventListener('click', () => {
+            birthdayAudio.pause();
+            // birthdayAudio.currentTime = 0;  // Reset audio to the beginning 
+        });
+        celebrateBtn.addEventListener('click', () => {
+            birthdayAudio.play();
+        });
+    </script>
+</body>
+</html>
