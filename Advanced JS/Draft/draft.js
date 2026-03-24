@@ -21,3 +21,30 @@
 // year only
 // const year = new Date().getFullYear()
 // console.log(year)
+
+
+
+// const persons = [
+//     { name: "Alice", age: 30 },
+//     { name: "Bob", age: 25 },
+//     { name: "Charlie", age: 35 }
+// ]
+
+
+function displayWelcomeMessage(Msg = "Welcome", ...names) {
+
+    return names.map(name => `${Msg}, ${name}!`).join(" q")
+} 
+
+console.log(displayWelcomeMessage("Hello", "Sami", "Abdulsattar", "Sabrin"))
+
+// Why we can't just use fuckin foreach fuckin loop?!!!!
+
+// function displayWelcomeMessage(Msg = "Welcome", ...names) {
+
+//     names.forEach(name => {
+//         console.log(`${Msg}, ${name}!`)
+//     });
+// }
+
+// displayWelcomeMessage("Wuzzup", "Sami", "Abdulsattar", "Sabrin")
