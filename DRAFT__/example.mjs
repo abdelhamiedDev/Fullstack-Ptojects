@@ -1,7 +1,7 @@
 import { GoogleGenAI } from "@google/genai"
 
   const genai = new GoogleGenAI({
-    apiKey: "AIzaSyCF1v-m1GA69xpBTcZw08Bw5acIbnIgWRU"
+    apiKey: process.env.GeminiGenAI_API_KEY
   })
 
 async function main() {
