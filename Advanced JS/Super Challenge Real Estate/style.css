@@ -1,6 +1,7 @@
 body {
     margin: 0;
     color: #333;
+    background-color: #eedfdf;
     font-family: 'Poppins';     
 }
 
@@ -8,17 +9,18 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
 
 }
 
 .card {
     display: flex;
-    min-width: 400px;
-    max-width: 450px;
+    min-width: 450px;
+    max-width: 500px;
     box-shadow: 0px 0px 10px 1px #999;
     margin: 0 20px 15px 20px;
     border-radius: 5px;
-    max-height: 120px;
+    max-height: 200px;
     
 }
 
@@ -31,7 +33,6 @@ body {
 .card-right {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     margin-left: 16px;
     padding: 15px;
 }
@@ -49,4 +50,17 @@ h3{
 p {
     font-size: 13px;
     margin: 5px 0 5px 0;
+}
+button {
+    background-color: #34577b;
+    color: white;
+    border: none;
+    padding: 2px 4px;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+}   
+button:hover {
+    background-color: #2a4365;
 }
